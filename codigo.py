@@ -15,7 +15,7 @@ print("\n" + "="*50 + "\n")
 # =========================================
 # 2. CARGA DE DATOS
 # =========================================
-ruta = "/content/La_data_v1.xlsx"
+ruta = "La_data_v1.xlsx"
 df = pd.read_excel(ruta)
 
 # Limpieza de nombres de columnas (importante)
